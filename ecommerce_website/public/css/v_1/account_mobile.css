@@ -1,0 +1,142 @@
+@media screen and (max-device-width:1023px){
+
+    #comparisonListHolder{
+        position: relative;
+        overflow-x: scroll;
+        padding-bottom: 3vw;
+    }
+
+    #comparisonListHolder_inside{
+        position: relative;
+        width: max-content;
+        display: flex;
+        padding-bottom: 2vw;
+        padding-top: 0.5vw;
+        left: -1vw;
+    }
+
+    .comparison_productsHolders{
+        width: 43vw !important;
+        position: relative;
+        padding: 1vw;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-left: 4vw;
+        padding-bottom: 16vw;
+    }
+
+    .comparison_btns_holder{
+        position: absolute;
+        bottom: 1.5vw;
+        left: 0;
+      width: 100%;
+    }
+
+    .comparison_productsImagesHolders{
+        width: 100%;
+        height: 25vw;
+        overflow: hidden;
+    }
+
+    .comparison_productsImages{
+        width: 100%;
+        height: auto;
+    }
+
+    .comparison_productsContent{
+        padding: 2vw;
+    }
+
+    
+    .s3_holders{
+        position: relative;
+        width: 27vw;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        position: relative;
+        top: 0;
+        transition: 0.7s;
+    }
+
+    #mainTabHolder{
+        margin-bottom: 18vw;
+    }
+
+    .s3_holders:hover{
+        top: -2vw;
+    }
+
+    .section_3_imagesHolders{
+        width: 100%;
+        height: 10vw;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #s3_mainHolder{
+        padding-bottom: 3vw;
+    }
+
+    .section_3_images{
+        width: 100%;
+        height: auto;
+    }
+
+    .section_3_content{
+        padding: 1.5vw;
+        padding-bottom: 7vw;
+    }
+
+    .s3_btns{
+        position: absolute;
+        bottom: 1.5vw;
+        left: 50%;
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+
+
+
+
+
+
+    /** ORDERS ***/
+
+    .statusHolders{
+        padding: 2vw;
+        border: 0.5px solid grey;
+        border-radius: 25px;
+    }
+
+    #ordersHolder{
+        overflow-x: auto;
+    }
+
+    #ordersHolder_inside{
+        display: flex;
+        width: max-content;
+        position: relative;
+        left: -2.3vw;
+        margin-bottom: 3vw;
+    }
+
+    .items_orders{
+        width: 30vw;
+        padding: 2vw;
+        margin-left: 2.5vw;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .items_images_holders{
+        position: relative;
+        width: 100%;
+        height: 20vw;
+        overflow: hidden;
+    }
+
+    .items_images{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    
+}

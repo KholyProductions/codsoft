@@ -1,0 +1,115 @@
+@media screen and (min-device-width:1024px){
+
+    #comparisonListHolder{
+        position: relative;
+        overflow-x: scroll;
+    }
+
+    #comparisonListHolder_inside{
+        position: relative;
+        width: max-content;
+        display: flex;
+        padding-bottom: 2vw;
+        padding-top: 0.5vw;
+        left: -1vw;
+    }
+
+    .comparison_productsHolders{
+        width: 35vw;
+        position: relative;
+        padding: 1vw;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-left: 5%;
+    }
+
+    .comparison_productsImagesHolders{
+        width: 100%;
+        height: 25vw;
+        overflow: hidden;
+    }
+
+    .comparison_productsImages{
+        width: 100%;
+        height: auto;
+    }
+
+    .comparison_productsContent{
+        padding: 1vw;
+    }
+
+    
+    .s3_holders{
+        position: relative;
+        width: 22vw;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        position: relative;
+        top: 0;
+        transition: 0.7s;
+    }
+
+    .s3_holders:hover{
+        top: -1vw;
+    }
+
+    .section_3_imagesHolders{
+        width: 100%;
+        height: 10vw;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .section_3_images{
+        width: 100%;
+        height: auto;
+    }
+
+    .section_3_content{
+        padding: 1.5vw;
+    }
+
+
+
+    /** ORDERS ***/
+
+    .statusHolders{
+        padding: 1vw;
+        border: 0.5px solid grey;
+        border-radius: 25px;
+    }
+
+    #ordersHolder{
+        overflow-x: auto;
+    }
+
+    #ordersHolder_inside{
+        display: flex;
+        width: max-content;
+        position: relative;
+        left: -1.3vw;
+        margin-bottom: 2vw;
+    }
+
+    .items_orders{
+        width: 15vw;
+        padding: 1vw;
+        margin-left: 1.5vw;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .items_images_holders{
+        position: relative;
+        width: 100%;
+        height: 10vw;
+        overflow: hidden;
+    }
+
+    .items_images{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    
+}

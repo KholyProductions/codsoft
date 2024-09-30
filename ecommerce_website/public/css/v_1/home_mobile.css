@@ -1,0 +1,597 @@
+@media only screen and (max-device-width:1023px){
+
+    #section_1{
+        position: relative;
+        width: 100vw;
+        height: 65vw !important;
+        overflow: hidden;
+    }
+
+    #getfit_word{
+        font-size: 7vw !important;
+        font-weight: 700 !important;
+    }
+
+    .wallpapers{
+        width: auto;
+        height: auto;
+        min-width: 100%;
+        min-height: 100%;
+        max-height: 160%;
+        max-width: 160%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        opacity: 0;
+        z-index: 1;
+        transition: 1.5s;
+        filter: brightness(50%);
+    }
+
+    #s1_content_holder_mobile{
+        position: absolute;
+        width: 70vw;
+        opacity: 0;
+        z-index: 2;
+        color: white;
+        transition: 2.5s;
+    }
+
+    .section_2_divs{
+        width: 50%;
+        position: relative;
+        height: 25vw;
+        overflow: hidden;
+    }
+
+    .paddings{
+        padding: 2vw;
+    }
+
+
+    #section_3{
+        background-color: #f3f3f3;
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #section_8{
+        display: flex;
+    }
+
+    .s8_holders{
+        width: 30%;
+    }
+
+    .s8_icons{
+        width: 5vw;
+        height: auto;
+    }
+
+    
+
+
+
+    /** Product Show **/
+
+    #productShowMainContainer{
+        position: relative;
+        padding-bottom: 5vw;
+        padding-top: 3vw;
+    }
+
+    #productShow_leftDiv{
+        width: 100% !important;
+    }
+
+    #productShow_rightDiv{
+        width: 100% !important;
+        margin-top: 6vw;
+    }
+
+    #mainImage{
+        width: auto;
+        max-width: 100%;
+        height: 70vw;
+    }
+
+    #smallImagesMainContainer{
+        height: 14vw;
+        padding-bottom: 1vw;
+    }
+
+    #mainProductImagesHolder{
+        position: relative;
+        left: -1vw;
+        width: fit-content;
+        height: 100%;
+    }
+
+    .mainProductImages{
+        position: relative;
+        height: 100%;
+        width: auto;
+        cursor: pointer;
+        margin-left: 1vw;
+        top: 0;
+        transition: 0.5s;
+    }
+
+    .mainProductImages:hover{
+        top: -1vw;
+    }
+
+    #relatedProducts_container{
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+        background-color: #f3f3f3;
+    }
+
+
+
+
+
+
+    /** About **/
+
+    #about_mainImage_holder{
+        position: relative;
+        width: 100vw;
+        height: 35vw;
+        overflow: hidden;
+    }
+
+    #about_section_1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #about_section_1 #leftDiv{
+        width: 45vw;
+    }
+
+    #about_section_1 #rightDiv{
+        width: 25vw;
+        height: 35vw;
+        overflow: hidden;
+    }
+
+    #about_section_2{
+        padding-bottom: 6vw;
+    }
+
+    #about_section_2 #imageHolder{
+        width: 100%;
+        height: 25vw;
+        overflow: hidden;
+    }
+
+
+
+    /** Services **/
+
+    #services_mainImage_holder{
+        position: relative;
+        width: 100vw;
+        height: 35vw;
+        overflow: hidden;
+    }
+
+    #services_s1{
+        padding-bottom: 6vw;
+    }
+
+    #services_main_holder{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .services_inner_holders{
+        width: 45%;
+    }
+
+    .image_holders{
+        width: 100%;
+        position: relative;
+        height: 20vw;
+        overflow: hidden;
+    }
+
+
+    /** Services type **/
+
+    .services_type_image_holders{
+        width: 100%;
+        height: fit-content;
+        max-height: 30vw;
+        position: relative;
+        margin-top: 3vw;
+        overflow: hidden;
+    }
+
+    #services_type_main_container{
+        padding-bottom: 6vw;
+    }
+
+
+    /** Contact **/
+
+    #contact_mainImage_holder{
+        position: relative;
+        height: fit-content;
+        max-height: 25vw;
+        overflow: hidden;
+    }
+
+    #contact_main_container{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        padding-bottom: 6vw;
+    }
+
+    #contact_leftDiv{
+        position: relative;
+        width: 40%;
+        opacity: 0;
+        left: -4vw;
+        transition: 1.5s;
+    }
+
+    .socialIcons_large{
+        width: 3vw;
+        height: 3vw;
+        cursor: pointer;
+    }
+
+    #contact_rightDiv{
+        width: 45%;
+        position: relative;
+        opacity: 0;
+        top: 3vw;
+        transition: 1.5s;
+    }
+
+    textarea{
+        height: 10vw;
+    }
+
+
+
+
+
+    /** CHECKOUT **/
+
+    #checkoutMainContainer{
+        position: relative;
+        width: 100%;
+    }
+
+    #checkout_leftDiv{
+        position: relative;
+        width: 100%;
+    }
+
+    .checkoutInputsHolders{
+        width: 47%;
+    }
+
+    .cartProductsHolders{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1vw;
+    }
+
+    .cartImagesHolders{
+        position: relative;
+        width: 10vw;
+        height: 10vw;
+        overflow: hidden;
+    }
+
+    .cartImages{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    .cartTitles{
+        color: blue;
+        width: 25vw;
+        cursor: pointer;
+    }
+
+    .quantity_input{
+        width: 6vw;
+        text-align: center;
+        margin-top: 0.4vw;
+    }
+
+    .cart_x_btns{
+        width: 3.5vw;
+        height: 3.5vw;
+        cursor: pointer;
+    }
+
+    .updateQuantities{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    #cod_icon{
+        position: relative;
+        width: 5vw;
+        height: 5vw;
+    }
+
+    #shipping_icon{
+        position: relative;
+        width: 5vw;
+        height: 5vw;
+    }
+
+    #customerNotes_input{
+        height: 20vw;
+    }
+
+    #checkout_rightDiv{
+        position: relative;
+        width: 100%;
+        margin-top: 7vw;
+    }
+
+    #orderSummaryDiv{
+        position: relative;
+    }
+
+    #ordersHolder{
+        position: relative;
+        width: 100%;
+        overflow-x: auto;
+        left: -1.5vw !important;
+    }
+
+    #ordersHolder_inside{
+        position: relative;
+        width: fit-content;
+        display: flex;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+    }
+
+    .statusHolders{
+        background-color: #02155b;
+        padding: 1.5vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        border-radius: 25px;
+        color: white !important;
+    }
+
+    .items_orders{
+        margin-top: 1vw;
+        position: relative;
+        width: 40vw !important;
+        padding: 2vw;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-left: 2.5vw !important;
+    }
+
+    .items_images_holders{
+        position: relative;
+        width: 100%;
+        height: 20vw;
+        overflow: hidden;
+    }
+
+    .items_images{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+    /** Payment **/
+
+    .paymentContainers{
+        padding: 2vw;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-bottom: 5vw;
+    }
+
+    #phoneNumber{
+        width: 100%;
+        padding: 1vw;
+        border: 1px solid black;
+        font-size: 4vw !important;
+        font-weight: 800;
+    }
+
+
+    /** Maintenance **/
+
+    #maintenanceContainer{
+        position: relative;
+        padding: 2vw;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+
+
+
+
+
+    /** CONTACT **/
+
+
+
+    #contactMainImage_holder{
+        position: relative;
+        width: 100vw;
+        height: 60vw;
+        overflow: hidden;
+    }
+
+
+    #contactMainImage{
+        position: relative;
+        width: 100vw;
+        height: auto;
+    }
+
+    #contact_leftDiv{
+        width: 100%;
+        opacity: 0;
+        position: relative;
+        left: -2vw;
+        transition: 1.5s;
+        margin-top: 10vw;
+    }
+
+    #verticalLine{
+        width: 2vw;
+        background-color: #ffc702;
+        margin-right: 2vw;
+    }
+
+    #contact_rightDiv{
+        width: 100%;
+        opacity: 0;
+        position: relative;
+        top: 2vw;
+        transition: 1.5s;
+    }
+
+    #message_input{
+        height: 30vw;
+    }
+
+    #sendMsg_btn{
+        border: none;
+    }
+
+
+
+    /** ABOUT **/
+
+    #about_wallpaper_holder{
+        position: relative;
+        width: 100vw;
+        height: 40vw;
+        overflow: hidden;
+    }
+
+    #about_wallpaper_holder img{
+        width: 100vw;
+        height: auto;
+    }
+
+    #about_blackDiv{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.7;
+        z-index: 2;
+    }
+
+    #about_contentHolder{
+        z-index: 3;
+    }
+
+    #about_section_1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #about_s1_lefDiv{
+        width: 40%;
+    }
+
+    #about_s1_lrighDiv{
+        width: 50%;
+    }
+
+
+    #about_section_2{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    #about_s2_leftDiv{
+        position: relative;
+        width: 35%;
+        overflow: hidden;
+        height: 50vw;
+    }
+
+    #about_s2_img{
+        width: auto;
+        height: 100%;
+    }
+
+    #about_s2_rightDiv{
+        width: 55%;
+    }
+
+
+    #about_mobile_image{
+        width: 100vw;
+        height: auto;
+    }
+
+
+
+
+
+    /** LOGIN **/
+
+    #mainContainer{
+        width: 100vw;
+        background-color: red;
+        padding: 10vw;
+        padding-top: 20vh;
+        padding-bottom: 20vh;
+        margin-bottom: -12vw;
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    #loginContainer{
+        position: relative;
+        width: 70vw;
+        padding: 5vw;
+        background-color: white;
+    }
+
+    
+
+    
+}
