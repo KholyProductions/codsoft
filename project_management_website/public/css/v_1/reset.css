@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  overflow-x: hidden;
+  background-color: white;
+}
+ol, ul {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: inherit;
+}
+
+
+
+
+
+@media only screen and (min-device-width: 800px){
+
+  @media only screen and (max-device-width: 1023px) /** iPad **/{
+
+    h1, h2, h3, h4, h5, h6, button, label, input, a, p, div, li, textarea{
+      font-family: 'Assistant', sans-serif;
+    }
+  
+    h1{
+    font-size: 4vw;
+    }
+  
+    h2{
+    font-size: 3.2vw;
+    }
+  
+    h3{
+    font-size: 2.8vw;
+    line-height: 1.5 !important;
+    }
+  
+    h4, button, label, input, a{
+    font-size: 2.4vw;
+    }
+  
+    h5, h4, p, div, li, textarea{
+    font-size: 2.4vw;
+    line-height: 1.5;
+    }
+  
+    textarea{
+      font-size: 2.2vw !important;
+    }
+  
+    h6{
+      font-size: 2.4vw;
+    }
+  
+    p{
+        color: grey;
+    }
+
+  }
+
+
+
+  @media only screen and (min-device-width: 1024px) /** PC **/{
+
+    h1, h2{
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    h3, h4, h5, h6, button, label, input, a, p, div, li, textarea{
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    h1{
+    font-size: 3.2vw;
+    }
+
+    h2{
+    font-size: 2.5vw;
+    }
+
+    h3{
+    font-size: 1.5vw;
+    }
+
+    h4{
+      font-size: 1.15vw;
+    }
+
+    h5{
+      font-size: 0.95vw;
+      color: grey;
+    }
+
+    button, label, input, a{
+    font-size: 1vw;
+    }
+
+    p, div, li, textarea{
+    font-size: 1vw;
+    line-height: 1.5;
+    }
+
+    h6{
+      color: grey;
+      font-size: 0.9vw;
+      font-style: italic;
+    }
+
+    p, select{
+        color: black;
+    }
+
+  }
+
+    
+
+} 
+
+
+@media only screen and (max-device-width: 799px) /** MOBILE **/{
+
+
+ h2, h3, h4, h5, h6, button, label, input, a, p, div, li, textarea{
+    font-family: 'Assistant', sans-serif;
+  }
+
+  h1{
+  font-size: 4.5vw;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  }
+
+  h2{
+  font-size: 4vw;
+  }
+
+  h3{
+  font-size: 3.2vw;
+  line-height: 1.5 !important;
+  }
+
+  h4, button, label, input, a{
+  font-size: 2.8vw;
+  }
+
+  h5, h4, div, li, textarea{
+  font-size: 2.6vw !important;
+  line-height: 1.2 !important;
+  }
+
+  p{
+    font-size: 2.5vw !important;
+    line-height: 1.3 !important;
+  }
+
+  textarea{
+    font-size: 2.2vw !important;
+  }
+
+  h6{
+    font-size: 2.4vw;
+  }
+
+  p{
+      color: grey;
+  }
+
+} 
